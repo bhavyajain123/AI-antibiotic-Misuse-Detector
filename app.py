@@ -126,7 +126,7 @@ new_case = pd.DataFrame({
 prediction = model.predict(new_case)[0]
 print("\n🩺 Prediction for new case:", "⚠️ Misuse" if prediction == 1 else "✅ Appropriate use")
 
-!pip install gradio pandas scikit-learn
+
 
 import gradio as gr
 import pandas as pd
