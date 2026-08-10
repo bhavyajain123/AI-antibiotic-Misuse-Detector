@@ -2,3 +2,4 @@ gradio
 pandas
 scikit-learn
 matplotlib
+fpdf2
