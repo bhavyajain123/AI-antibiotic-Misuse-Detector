@@ -38,7 +38,7 @@ def rule_check(record):
 
     return flags
 
-!python models/train_model.py
+
 
 # aamd_project/preprocessing/features.py
 import pandas as pd
