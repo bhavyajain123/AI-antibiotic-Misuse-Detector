@@ -201,13 +201,8 @@ app = gr.Interface(
 # ----------------------------
 # STEP 6: Launch the app
 # ----------------------------
-app.launch()
 
-import gradio as gr
-import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from datetime import datetime
-import os
+
 
 # ----------------------------
 # STEP 1: Load dataset
@@ -2247,9 +2242,13 @@ with gr.Blocks(title="AAMD Next-Gen") as app:
     logout_btn.click(logout,None,[auth_page,main_app,login_msg])
     signup_btn.click(signup,[signup_user,signup_email,signup_pass,signup_role],signup_msg)
 
+import os
+
+port = int(os.environ.get("PORT", 7860))
+
 app.launch(
     server_name="0.0.0.0",
-    server_port=int(os.environ.get("PORT", 10000))
+    server_port=port
 )
 print("✅ CSV files generated and AAMD app launched successfully!")
 
