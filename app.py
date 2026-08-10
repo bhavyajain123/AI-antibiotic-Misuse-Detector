@@ -1403,7 +1403,7 @@ with gr.Blocks(title="AAMD Advanced") as app:
 
 app.launch()
 
-!pip install fpdf
+
 
 import gradio as gr
 import pandas as pd
