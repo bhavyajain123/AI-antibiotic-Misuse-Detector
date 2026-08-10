@@ -2247,8 +2247,10 @@ with gr.Blocks(title="AAMD Next-Gen") as app:
     logout_btn.click(logout,None,[auth_page,main_app,login_msg])
     signup_btn.click(signup,[signup_user,signup_email,signup_pass,signup_role],signup_msg)
 
-app.launch()
-
+app.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 10000))
+)
 print("✅ CSV files generated and AAMD app launched successfully!")
 
 # ----------------------------
