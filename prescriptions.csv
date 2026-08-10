@@ -1,0 +1,31 @@
+age,dose_mg_per_kg,prior_abx_30d,fever_flag,diagnosis_text,meds
+25,10,0,1,bacterial infection,amoxicillin
+30,20,0,1,pneumonia,amoxicillin
+10,45,1,0,viral infection,amoxicillin
+8,50,0,1,pneumonia,azithromycin
+35,15,1,1,bacterial infection,none
+22,5,0,0,viral infection,amoxicillin
+45,25,0,1,bacterial infection,none
+16,12,1,1,bacterial infection,amoxicillin
+60,10,0,1,viral infection,none
+12,20,0,1,bacterial infection,amoxicillin
+28,15,0,1,pneumonia,azithromycin
+7,45,0,0,viral infection,amoxicillin
+40,20,1,1,bacterial infection,amoxicillin
+19,10,0,0,viral infection,azithromycin
+55,15,0,1,pneumonia,none
+14,8,1,1,bacterial infection,amoxicillin
+32,42,0,1,bacterial infection,amoxicillin
+9,10,0,0,viral infection,none
+48,18,1,1,pneumonia,amoxicillin
+21,12,0,1,bacterial infection,none
+5,45,1,0,viral infection,azithromycin
+27,22,0,1,pneumonia,amoxicillin
+38,10,0,0,viral infection,amoxicillin
+11,15,1,1,bacterial infection,amoxicillin
+65,12,0,1,pneumonia,azithromycin
+18,8,0,0,viral infection,none
+24,48,1,1,bacterial infection,amoxicillin
+6,10,0,0,viral infection,none
+42,20,1,1,pneumonia,amoxicillin
+15,45,0,0,viral infection,azithromycin
